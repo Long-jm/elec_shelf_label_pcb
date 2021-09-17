@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle>
+    <drawing>
+        <grid unitdist="mm" unit="mm"/>
+        <layers>
+            <layer name="Top" color="4" number="1" visible="yes" active="yes" fill="1"/>
+            <layer name="tKeepout" color="0" number="4" visible="yes" active="yes" fill="1"/>
+            <layer name="Bottom" color="4" number="16" visible="yes" active="yes" fill="1"/>
+            <layer name="tPlace" color="7" number="21" visible="yes" active="yes" fill="1"/>
+            <layer name="bPlace" color="7" number="22" visible="yes" active="yes" fill="1"/>
+            <layer name="tNames" color="7" number="25" visible="yes" active="yes" fill="1"/>
+            <layer name="bNames" color="7" number="26" visible="yes" active="yes" fill="1"/>
+            <layer name="tValues" color="7" number="27" visible="yes" active="yes" fill="1"/>
+            <layer name="bValues" color="7" number="28" visible="yes" active="yes" fill="1"/>
+            <layer name="tStop" color="7" number="29" visible="yes" active="yes" fill="1"/>
+            <layer name="bStop" color="7" number="30" visible="yes" active="yes" fill="1"/>
+            <layer name="tCream" color="7" number="31" visible="yes" active="yes" fill="1"/>
+            <layer name="bCream" color="7" number="32" visible="yes" active="yes" fill="1"/>
+            <layer name="bKeepout" color="0" number="40" visible="yes" active="yes" fill="1"/>
+            <layer name="tRestrict" color="4" number="41" visible="yes" active="yes" fill="1"/>
+            <layer name="bRestrict" color="4" number="42" visible="yes" active="yes" fill="1"/>
+            <layer name="tDocu" color="7" number="51" visible="yes" active="yes" fill="1"/>
+            <layer name="bDocu" color="7" number="52" visible="yes" active="yes" fill="1"/>
+            <layer name="Nets" color="2" number="91" visible="yes" active="yes" fill="1"/>
+            <layer name="Busses" color="1" number="92" visible="yes" active="yes" fill="1"/>
+            <layer name="Pins" color="2" number="93" visible="yes" active="yes" fill="1"/>
+            <layer name="Symbols" color="4" number="94" visible="yes" active="yes" fill="1"/>
+            <layer name="Names" color="7" number="95" visible="yes" active="yes" fill="1"/>
+            <layer name="Values" color="7" number="96" visible="yes" active="yes" fill="1"/>
+            <layer name="Info" color="7" number="97" visible="yes" active="yes" fill="1"/>
+            <layer name="Guide" color="6" number="98" visible="yes" active="yes" fill="1"/>
+        </layers>
+        <library name="Upverter Library">
+            <description>Upverter Parts Library
+
+Created by Upverter.com</description>
+            <packages>
+                <package name="MURATA_GRM187R61A226ME15D_0">
+                    <description>Chip Multilayer Ceramic Capacitors for General Purpose, 0603, 22uF, X5R, 15%, 20%, 10V</description>
+                    <wire layer="51" y2="0.5" width="0.15" x2="-0.9" y1="-0.5" x1="-0.9"/>
+                    <wire layer="51" y2="0.5" width="0.15" x2="0.9" y1="0.5" x1="-0.9"/>
+                    <wire layer="51" y2="-0.5" width="0.15" x2="0.9" y1="0.5" x1="0.9"/>
+                    <wire layer="51" y2="-0.5" width="0.15" x2="-0.9" y1="-0.5" x1="0.9"/>
+                    <wire layer="41" y2="0.6" width="0.1" x2="-1.25" y1="-0.6" x1="-1.25"/>
+                    <wire layer="41" y2="0.6" width="0.1" x2="1.25" y1="0.6" x1="-1.25"/>
+                    <wire layer="41" y2="-0.6" width="0.1" x2="1.25" y1="0.6" x1="1.25"/>
+                    <wire layer="41" y2="-0.6" width="0.1" x2="-1.25" y1="-0.6" x1="1.25"/>
+                    <wire layer="21" y2="0.5" width="0.15" x2="0.025" y1="0.5" x1="-0.025"/>
+                    <wire layer="21" y2="-0.5" width="0.15" x2="0.025" y1="-0.5" x1="-0.025"/>
+                    <text layer="25" align="bottom-left" y="-0.3" x="1.55" rot="R0" size="1.0">&gt;NAME</text>
+                    <smd layer="1" thermals="yes" name="1" stop="yes" roundness="0" dx="0.75" dy="0.9" y="0.0" x="-0.775" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="2" stop="yes" roundness="0" dx="0.75" dy="0.9" y="0.0" x="0.775" rot="R0" cream="yes"/>
+                </package>
+                <package name="MURATA_GRM187R61A226ME15D_1">
+                    <description>Chip Multilayer Ceramic Capacitors for General Purpose, 0603, 22uF, X5R, 15%, 20%, 10V</description>
+                    <wire layer="51" y2="0.4" width="0.15" x2="-0.8" y1="-0.4" x1="-0.8"/>
+                    <wire layer="51" y2="0.4" width="0.15" x2="0.8" y1="0.4" x1="-0.8"/>
+                    <wire layer="51" y2="-0.4" width="0.15" x2="0.8" y1="0.4" x1="0.8"/>
+                    <wire layer="51" y2="-0.4" width="0.15" x2="-0.8" y1="-0.4" x1="0.8"/>
+                    <wire layer="21" y2="-0.953" width="0.15" x2="1.453" y1="-0.953" x1="-1.453"/>
+                    <wire layer="21" y2="0.953" width="0.15" x2="1.453" y1="0.953" x1="-1.453"/>
+                    <wire layer="41" y2="1.053" width="0.1" x2="-1.953" y1="-1.053" x1="-1.953"/>
+                    <wire layer="41" y2="1.053" width="0.1" x2="1.953" y1="1.053" x1="-1.953"/>
+                    <wire layer="41" y2="-1.053" width="0.1" x2="1.953" y1="1.053" x1="1.953"/>
+                    <wire layer="41" y2="-1.053" width="0.1" x2="-1.953" y1="-1.053" x1="1.953"/>
+                    <text layer="25" align="bottom-left" y="-0.3" x="2.253" rot="R0" size="1.0">&gt;NAME</text>
+                    <smd layer="1" thermals="yes" name="1" stop="yes" roundness="0" dx="1.255" dy="1.106" y="-0.0" x="-0.825" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="2" stop="yes" roundness="0" dx="1.255" dy="1.106" y="-0.0" x="0.825" rot="R0" cream="yes"/>
+                </package>
+                <package name="MURATA_GRM187R61A226ME15D_2">
+                    <description>Chip Multilayer Ceramic Capacitors for General Purpose, 0603, 22uF, X5R, 15%, 20%, 10V</description>
+                    <wire layer="51" y2="0.4" width="0.15" x2="-0.8" y1="-0.4" x1="-0.8"/>
+                    <wire layer="51" y2="0.4" width="0.15" x2="0.8" y1="0.4" x1="-0.8"/>
+                    <wire layer="51" y2="-0.4" width="0.15" x2="0.8" y1="0.4" x1="0.8"/>
+                    <wire layer="51" y2="-0.4" width="0.15" x2="-0.8" y1="-0.4" x1="0.8"/>
+                    <wire layer="21" y2="-0.903" width="0.15" x2="1.253" y1="-0.903" x1="-1.253"/>
+                    <wire layer="21" y2="0.903" width="0.15" x2="1.253" y1="0.903" x1="-1.253"/>
+                    <wire layer="41" y2="0.753" width="0.1" x2="-1.503" y1="-0.753" x1="-1.503"/>
+                    <wire layer="41" y2="0.753" width="0.1" x2="1.503" y1="0.753" x1="-1.503"/>
+                    <wire layer="41" y2="-0.753" width="0.1" x2="1.503" y1="0.753" x1="1.503"/>
+                    <wire layer="41" y2="-0.753" width="0.1" x2="-1.503" y1="-0.753" x1="1.503"/>
+                    <text layer="25" align="bottom-left" y="-0.3" x="1.803" rot="R0" size="1.0">&gt;NAME</text>
+                    <smd layer="1" thermals="yes" name="1" stop="yes" roundness="0" dx="1.055" dy="1.006" y="-0.0" x="-0.725" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="2" stop="yes" roundness="0" dx="1.055" dy="1.006" y="-0.0" x="0.725" rot="R0" cream="yes"/>
+                </package>
+                <package name="MURATA_GRM187R61A226ME15D_3">
+                    <description>Chip Multilayer Ceramic Capacitors for General Purpose, 0603, 22uF, X5R, 15%, 20%, 10V</description>
+                    <wire layer="51" y2="0.4" width="0.15" x2="-0.8" y1="-0.4" x1="-0.8"/>
+                    <wire layer="51" y2="0.4" width="0.15" x2="0.8" y1="0.4" x1="-0.8"/>
+                    <wire layer="51" y2="-0.4" width="0.15" x2="0.8" y1="0.4" x1="0.8"/>
+                    <wire layer="51" y2="-0.4" width="0.15" x2="-0.8" y1="-0.4" x1="0.8"/>
+                    <wire layer="21" y2="-0.9" width="0.15" x2="1.053" y1="-0.9" x1="-1.053"/>
+                    <wire layer="21" y2="0.9" width="0.15" x2="1.053" y1="0.9" x1="-1.053"/>
+                    <wire layer="41" y2="0.6" width="0.1" x2="-1.153" y1="-0.6" x1="-1.153"/>
+                    <wire layer="41" y2="0.6" width="0.1" x2="1.153" y1="0.6" x1="-1.153"/>
+                    <wire layer="41" y2="-0.6" width="0.1" x2="1.153" y1="0.6" x1="1.153"/>
+                    <wire layer="41" y2="-0.6" width="0.1" x2="-1.153" y1="-0.6" x1="1.153"/>
+                    <text layer="25" align="bottom-left" y="-0.3" x="1.453" rot="R0" size="1.0">&gt;NAME</text>
+                    <smd layer="1" thermals="yes" name="1" stop="yes" roundness="0" dx="0.855" dy="0.906" y="-0.0" x="-0.625" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="2" stop="yes" roundness="0" dx="0.855" dy="0.906" y="-0.0" x="0.625" rot="R0" cream="yes"/>
+                </package>
+            </packages>
+            <symbols>
+                <symbol name="MURATA_GRM187R61A226ME15D_0_0">
+                    <description>Chip Multilayer Ceramic Capacitors for General Purpose, 0603, 22uF, X5R, 15%, 20%, 10V</description>
+                    <wire layer="94" y2="-1.778" width="0.508" x2="0.0" y1="-1.778" x1="5.08"/>
+                    <wire layer="94" y2="-3.302" width="0.508" x2="0.0" y1="-3.302" x1="5.08"/>
+                    <wire layer="94" y2="-1.778" width="0.15" x2="2.54" y1="-4.4408920985e-16" x1="2.54"/>
+                    <wire layer="94" y2="-3.556" width="0.15" x2="2.54" y1="-5.08" x1="2.54"/>
+                    <text layer="95" align="top-left" y="0.254" x="6.096" rot="R0" size="2.54">&gt;NAME</text>
+                    <text layer="95" align="top-left" y="-5.08" x="6.096" rot="R0" size="2.54">22uF</text>
+                    <text layer="95" align="top-left" y="-2.54" x="6.096" rot="R0" size="2.54">{{_voltage}}</text>
+                    <text layer="95" align="top-left" y="-2.54" x="6.096" rot="R0" size="2.54">10V</text>
+                    <pin direction="pas" name="1" visible="pad" length="short" y="2.54" x="2.54" rot="R270"/>
+                    <pin direction="pas" name="2" visible="pad" length="short" y="-7.62" x="2.54" rot="R90"/>
+                </symbol>
+            </symbols>
+            <devicesets>
+                <deviceset prefix="C" name="MURATA_GRM187R61A226ME15D">
+                    <description>Chip Multilayer Ceramic Capacitors for General Purpose, 0603, 22uF, X5R, 15%, 20%, 10V</description>
+                    <gates>
+                        <gate name="G$0" symbol="MURATA_GRM187R61A226ME15D_0_0" x="0"/>
+                    </gates>
+                    <devices>
+                        <device name="MURATA_GRM187R61A226ME15D_0_0" package="MURATA_GRM187R61A226ME15D_0">
+                            <connects>
+                                <connect gate="G$0" pad="1" pin="1"/>
+                                <connect gate="G$0" pad="2" pin="2"/>
+                            </connects>
+                            <technologies>
+                                <technology>
+                                    <attribute name="mouser_part_number" value=""/>
+                                    <attribute name="temperature_coefficient" value="15%"/>
+                                    <attribute name="mfg_package_ident_rev" value="0"/>
+                                    <attribute name="footprint_parameters_1" value='{"fp_type":"chip_cap","params":{"L":{"nom":1600000,"long name":"Length","min":1400000,"max":1800000,"short name":"L","type":"measurement"},"W":{"nom":800000,"long name":"Width","min":600000,"max":1000000,"short name":"W","type":"measurement"},"t":{"nom":700000,"long name":"Height","min":600000,"max":800000,"short name":"t","type":"measurement"},"b":{"nom":350000,"long name":"Terminal width","min":200000,"max":500000,"short name":"b","type":"measurement"},"P":{"default":"false","long name":"Polarized","type":"multichoice","short name":"P"},"offset x":{"nom":0,"long name":"X Center offset","min":null,"max":null,"short name":"offset x","type":"measurement"},"offset y":{"nom":0,"long name":"Y Center offset","min":null,"max":null,"short name":"offset y","type":"measurement"},"POL":{"default":"No","long name":"Pin 1 polarity marker","type":"multichoice","short name":"POL"},"LS":{"long name":"Land shape","type":"fixed","short name":"LS","value":"Rectangle"},"solder toe":{"nom":550000,"long name":"Solder fillet (toe)","min":null,"max":null,"short name":"solder toe","type":"fixedmeasurement"},"solder heel":{"nom":0,"long name":"Solder fillet (heel)","min":null,"max":null,"short name":"solder heel","type":"fixedmeasurement"},"solder side":{"nom":50000,"long name":"Solder fillet (side)","min":null,"max":null,"short name":"solder side","type":"fixedmeasurement"},"courtyard":{"nom":500000,"long name":"Courtyard","min":null,"max":null,"short name":"courtyard","type":"fixedmeasurement"},"SF":{"default":"A (&gt;= 1608 metric)","long name":"Packing level","type":"multichoiceparent","short name":"SF","help":"http://support.upverter.com/customer/portal/articles/978783-what-is-a-footprint-packing-level","children":["solder toe","solder heel","solder side","courtyard"]}}}'/>
+                                    <attribute name="mfg_package_ident_date" value="0"/>
+                                    <attribute name="footprint_parameters_3" value='{"fp_type":"chip_cap","params":{"L":{"nom":1600000,"long name":"Length","min":1400000,"max":1800000,"short name":"L","type":"measurement"},"W":{"nom":800000,"long name":"Width","min":600000,"max":1000000,"short name":"W","type":"measurement"},"t":{"nom":700000,"long name":"Height","min":600000,"max":800000,"short name":"t","type":"measurement"},"b":{"nom":350000,"long name":"Terminal width","min":200000,"max":500000,"short name":"b","type":"measurement"},"P":{"default":"false","long name":"Polarized","type":"multichoice","short name":"P"},"offset x":{"nom":0,"long name":"X Center offset","min":null,"max":null,"short name":"offset x","type":"measurement"},"offset y":{"nom":0,"long name":"Y Center offset","min":null,"max":null,"short name":"offset y","type":"measurement"},"POL":{"default":"No","long name":"Pin 1 polarity marker","type":"multichoice","short name":"POL"},"LS":{"long name":"Land shape","type":"fixed","short name":"LS","value":"Rectangle"},"solder toe":{"nom":150000,"long name":"Solder fillet (toe)","min":null,"max":null,"short name":"solder toe","type":"fixedmeasurement"},"solder heel":{"nom":0,"long name":"Solder fillet (heel)","min":null,"max":null,"short name":"solder heel","type":"fixedmeasurement"},"solder side":{"nom":-50000,"long name":"Solder fillet (side)","min":null,"max":null,"short name":"solder side","type":"fixedmeasurement"},"courtyard":{"nom":100000,"long name":"Courtyard","min":null,"max":null,"short name":"courtyard","type":"fixedmeasurement"},"SF":{"default":"C (&gt;= 1608 metric)","long name":"Packing level","type":"multichoiceparent","short name":"SF","help":"http://support.upverter.com/customer/portal/articles/978783-what-is-a-footprint-packing-level","children":["solder toe","solder heel","solder side","courtyard"]}}}'/>
+                                    <attribute name="footprint_parameters_2" value='{"fp_type":"chip_cap","params":{"L":{"nom":1600000,"long name":"Length","min":1400000,"max":1800000,"short name":"L","type":"measurement"},"W":{"nom":800000,"long name":"Width","min":600000,"max":1000000,"short name":"W","type":"measurement"},"t":{"nom":700000,"long name":"Height","min":600000,"max":800000,"short name":"t","type":"measurement"},"b":{"nom":350000,"long name":"Terminal width","min":200000,"max":500000,"short name":"b","type":"measurement"},"P":{"default":"false","long name":"Polarized","type":"multichoice","short name":"P"},"offset x":{"nom":0,"long name":"X Center offset","min":null,"max":null,"short name":"offset x","type":"measurement"},"offset y":{"nom":0,"long name":"Y Center offset","min":null,"max":null,"short name":"offset y","type":"measurement"},"POL":{"default":"No","long name":"Pin 1 polarity marker","type":"multichoice","short name":"POL"},"LS":{"long name":"Land shape","type":"fixed","short name":"LS","value":"Rectangle"},"solder toe":{"nom":350000,"long name":"Solder fillet (toe)","min":null,"max":null,"short name":"solder toe","type":"fixedmeasurement"},"solder heel":{"nom":0,"long name":"Solder fillet (heel)","min":null,"max":null,"short name":"solder heel","type":"fixedmeasurement"},"solder side":{"nom":0,"long name":"Solder fillet (side)","min":null,"max":null,"short name":"solder side","type":"fixedmeasurement"},"courtyard":{"nom":250000,"long name":"Courtyard","min":null,"max":null,"short name":"courtyard","type":"fixedmeasurement"},"SF":{"default":"B (&gt;= 1608 metric)","long name":"Packing level","type":"multichoiceparent","short name":"SF","help":"http://support.upverter.com/customer/portal/articles/978783-what-is-a-footprint-packing-level","children":["solder toe","solder heel","solder side","courtyard"]}}}'/>
+                                    <attribute name="temperature_range_high" value="+85°C"/>
+                                    <attribute name="MPN" value="GRM187R61A226ME15D"/>
+                                    <attribute name="digikey_description" value=""/>
+                                    <attribute name="device_class_L3" value="Ceramic Capacitors"/>
+                                    <attribute name="device_class_L1" value="Passive Components"/>
+                                    <attribute name="digikey_part_number" value=""/>
+                                    <attribute name="tolerance" value="20%"/>
+                                    <attribute name="prefix" value="C"/>
+                                    <attribute name="verification_version" value="0.0.0.3"/>
+                                    <attribute name="datasheet" value="https://www.murata.com/en-us/products/productdetail?partno=GRM187R61A226ME15%23"/>
+                                    <attribute name="voltage_rating" value="10V"/>
+                                    <attribute name="lead_free" value="Yes"/>
+                                    <attribute name="height" value="0.8mm"/>
+                                    <attribute name="temperature_characteristic" value="X5R"/>
+                                    <attribute name="automotive" value="No"/>
+                                    <attribute name="mfg_package_ident" value="GRM187-0.2"/>
+                                    <attribute name="footprint_variant_name_0" value="Recommended_Land_Pattern"/>
+                                    <attribute name="footprint_variant_name_1" value="IPC_A"/>
+                                    <attribute name="footprint_variant_name_2" value="IPC_B"/>
+                                    <attribute name="footprint_variant_name_3" value="IPC_C"/>
+                                    <attribute name="package" value="0603"/>
+                                    <attribute name="temperature_range_low" value="-55°C"/>
+                                    <attribute name="capacitance" value="22uF"/>
+                                    <attribute name="rohs" value="Yes"/>
+                                    <attribute name="centroid_not_specified" value="No"/>
+                                    <attribute name="material" value="Ceramic"/>
+                                    <attribute name="ipc_land_pattern_name" value="CAPC16080X70"/>
+                                    <attribute name="MF" value="Murata"/>
+                                    <attribute name="device_class_L2" value="Capacitors"/>
+                                    <attribute name="mfg_package_ident_component_id" value="f7724725aa28cefe"/>
+                                </technology>
+                            </technologies>
+                        </device>
+                        <device name="MURATA_GRM187R61A226ME15D_0_1" package="MURATA_GRM187R61A226ME15D_1">
+                            <connects>
+                                <connect gate="G$0" pad="1" pin="1"/>
+                                <connect gate="G$0" pad="2" pin="2"/>
+                            </connects>
+                            <technologies>
+                                <technology>
+                                    <attribute name="mouser_part_number" value=""/>
+                                    <attribute name="temperature_coefficient" value="15%"/>
+                                    <attribute name="mfg_package_ident_rev" value="0"/>
+                                    <attribute name="footprint_parameters_1" value='{"fp_type":"chip_cap","params":{"L":{"nom":1600000,"long name":"Length","min":1400000,"max":1800000,"short name":"L","type":"measurement"},"W":{"nom":800000,"long name":"Width","min":600000,"max":1000000,"short name":"W","type":"measurement"},"t":{"nom":700000,"long name":"Height","min":600000,"max":800000,"short name":"t","type":"measurement"},"b":{"nom":350000,"long name":"Terminal width","min":200000,"max":500000,"short name":"b","type":"measurement"},"P":{"default":"false","long name":"Polarized","type":"multichoice","short name":"P"},"offset x":{"nom":0,"long name":"X Center offset","min":null,"max":null,"short name":"offset x","type":"measurement"},"offset y":{"nom":0,"long name":"Y Center offset","min":null,"max":null,"short name":"offset y","type":"measurement"},"POL":{"default":"No","long name":"Pin 1 polarity marker","type":"multichoice","short name":"POL"},"LS":{"long name":"Land shape","type":"fixed","short name":"LS","value":"Rectangle"},"solder toe":{"nom":550000,"long name":"Solder fillet (toe)","min":null,"max":null,"short name":"solder toe","type":"fixedmeasurement"},"solder heel":{"nom":0,"long name":"Solder fillet (heel)","min":null,"max":null,"short name":"solder heel","type":"fixedmeasurement"},"solder side":{"nom":50000,"long name":"Solder fillet (side)","min":null,"max":null,"short name":"solder side","type":"fixedmeasurement"},"courtyard":{"nom":500000,"long name":"Courtyard","min":null,"max":null,"short name":"courtyard","type":"fixedmeasurement"},"SF":{"default":"A (&gt;= 1608 metric)","long name":"Packing level","type":"multichoiceparent","short name":"SF","help":"http://support.upverter.com/customer/portal/articles/978783-what-is-a-footprint-packing-level","children":["solder toe","solder heel","solder side","courtyard"]}}}'/>
+                                    <attribute name="mfg_package_ident_date" value="0"/>
+                                    <attribute name="footprint_parameters_3" value='{"fp_type":"chip_cap","params":{"L":{"nom":1600000,"long name":"Length","min":1400000,"max":1800000,"short name":"L","type":"measurement"},"W":{"nom":800000,"long name":"Width","min":600000,"max":1000000,"short name":"W","type":"measurement"},"t":{"nom":700000,"long name":"Height","min":600000,"max":800000,"short name":"t","type":"measurement"},"b":{"nom":350000,"long name":"Terminal width","min":200000,"max":500000,"short name":"b","type":"measurement"},"P":{"default":"false","long name":"Polarized","type":"multichoice","short name":"P"},"offset x":{"nom":0,"long name":"X Center offset","min":null,"max":null,"short name":"offset x","type":"measurement"},"offset y":{"nom":0,"long name":"Y Center offset","min":null,"max":null,"short name":"offset y","type":"measurement"},"POL":{"default":"No","long name":"Pin 1 polarity marker","type":"multichoice","short name":"POL"},"LS":{"long name":"Land shape","type":"fixed","short name":"LS","value":"Rectangle"},"solder toe":{"nom":150000,"long name":"Solder fillet (toe)","min":null,"max":null,"short name":"solder toe","type":"fixedmeasurement"},"solder heel":{"nom":0,"long name":"Solder fillet (heel)","min":null,"max":null,"short name":"solder heel","type":"fixedmeasurement"},"solder side":{"nom":-50000,"long name":"Solder fillet (side)","min":null,"max":null,"short name":"solder side","type":"fixedmeasurement"},"courtyard":{"nom":100000,"long name":"Courtyard","min":null,"max":null,"short name":"courtyard","type":"fixedmeasurement"},"SF":{"default":"C (&gt;= 1608 metric)","long name":"Packing level","type":"multichoiceparent","short name":"SF","help":"http://support.upverter.com/customer/portal/articles/978783-what-is-a-footprint-packing-level","children":["solder toe","solder heel","solder side","courtyard"]}}}'/>
+                                    <attribute name="footprint_parameters_2" value='{"fp_type":"chip_cap","params":{"L":{"nom":1600000,"long name":"Length","min":1400000,"max":1800000,"short name":"L","type":"measurement"},"W":{"nom":800000,"long name":"Width","min":600000,"max":1000000,"short name":"W","type":"measurement"},"t":{"nom":700000,"long name":"Height","min":600000,"max":800000,"short name":"t","type":"measurement"},"b":{"nom":350000,"long name":"Terminal width","min":200000,"max":500000,"short name":"b","type":"measurement"},"P":{"default":"false","long name":"Polarized","type":"multichoice","short name":"P"},"offset x":{"nom":0,"long name":"X Center offset","min":null,"max":null,"short name":"offset x","type":"measurement"},"offset y":{"nom":0,"long name":"Y Center offset","min":null,"max":null,"short name":"offset y","type":"measurement"},"POL":{"default":"No","long name":"Pin 1 polarity marker","type":"multichoice","short name":"POL"},"LS":{"long name":"Land shape","type":"fixed","short name":"LS","value":"Rectangle"},"solder toe":{"nom":350000,"long name":"Solder fillet (toe)","min":null,"max":null,"short name":"solder toe","type":"fixedmeasurement"},"solder heel":{"nom":0,"long name":"Solder fillet (heel)","min":null,"max":null,"short name":"solder heel","type":"fixedmeasurement"},"solder side":{"nom":0,"long name":"Solder fillet (side)","min":null,"max":null,"short name":"solder side","type":"fixedmeasurement"},"courtyard":{"nom":250000,"long name":"Courtyard","min":null,"max":null,"short name":"courtyard","type":"fixedmeasurement"},"SF":{"default":"B (&gt;= 1608 metric)","long name":"Packing level","type":"multichoiceparent","short name":"SF","help":"http://support.upverter.com/customer/portal/articles/978783-what-is-a-footprint-packing-level","children":["solder toe","solder heel","solder side","courtyard"]}}}'/>
+                                    <attribute name="temperature_range_high" value="+85°C"/>
+                                    <attribute name="MPN" value="GRM187R61A226ME15D"/>
+                                    <attribute name="digikey_description" value=""/>
+                                    <attribute name="device_class_L3" value="Ceramic Capacitors"/>
+                                    <attribute name="device_class_L1" value="Passive Components"/>
+                                    <attribute name="digikey_part_number" value=""/>
+                                    <attribute name="tolerance" value="20%"/>
+                                    <attribute name="prefix" value="C"/>
+                                    <attribute name="verification_version" value="0.0.0.3"/>
+                                    <attribute name="datasheet" value="https://www.murata.com/en-us/products/productdetail?partno=GRM187R61A226ME15%23"/>
+                                    <attribute name="voltage_rating" value="10V"/>
+                                    <attribute name="lead_free" value="Yes"/>
+                                    <attribute name="height" value="0.8mm"/>
+                                    <attribute name="temperature_characteristic" value="X5R"/>
+                                    <attribute name="automotive" value="No"/>
+                                    <attribute name="mfg_package_ident" value="GRM187-0.2"/>
+                                    <attribute name="footprint_variant_name_0" value="Recommended_Land_Pattern"/>
+                                    <attribute name="footprint_variant_name_1" value="IPC_A"/>
+                                    <attribute name="footprint_variant_name_2" value="IPC_B"/>
+                                    <attribute name="footprint_variant_name_3" value="IPC_C"/>
+                                    <attribute name="package" value="0603"/>
+                                    <attribute name="temperature_range_low" value="-55°C"/>
+                                    <attribute name="capacitance" value="22uF"/>
+                                    <attribute name="rohs" value="Yes"/>
+                                    <attribute name="centroid_not_specified" value="No"/>
+                                    <attribute name="material" value="Ceramic"/>
+                                    <attribute name="ipc_land_pattern_name" value="CAPC16080X70"/>
+                                    <attribute name="MF" value="Murata"/>
+                                    <attribute name="device_class_L2" value="Capacitors"/>
+                                    <attribute name="mfg_package_ident_component_id" value="f7724725aa28cefe"/>
+                                </technology>
+                            </technologies>
+                        </device>
+                        <device name="MURATA_GRM187R61A226ME15D_0_2" package="MURATA_GRM187R61A226ME15D_2">
+                            <connects>
+                                <connect gate="G$0" pad="1" pin="1"/>
+                                <connect gate="G$0" pad="2" pin="2"/>
+                            </connects>
+                            <technologies>
+                                <technology>
+                                    <attribute name="mouser_part_number" value=""/>
+                                    <attribute name="temperature_coefficient" value="15%"/>
+                                    <attribute name="mfg_package_ident_rev" value="0"/>
+                                    <attribute name="footprint_parameters_1" value='{"fp_type":"chip_cap","params":{"L":{"nom":1600000,"long name":"Length","min":1400000,"max":1800000,"short name":"L","type":"measurement"},"W":{"nom":800000,"long name":"Width","min":600000,"max":1000000,"short name":"W","type":"measurement"},"t":{"nom":700000,"long name":"Height","min":600000,"max":800000,"short name":"t","type":"measurement"},"b":{"nom":350000,"long name":"Terminal width","min":200000,"max":500000,"short name":"b","type":"measurement"},"P":{"default":"false","long name":"Polarized","type":"multichoice","short name":"P"},"offset x":{"nom":0,"long name":"X Center offset","min":null,"max":null,"short name":"offset x","type":"measurement"},"offset y":{"nom":0,"long name":"Y Center offset","min":null,"max":null,"short name":"offset y","type":"measurement"},"POL":{"default":"No","long name":"Pin 1 polarity marker","type":"multichoice","short name":"POL"},"LS":{"long name":"Land shape","type":"fixed","short name":"LS","value":"Rectangle"},"solder toe":{"nom":550000,"long name":"Solder fillet (toe)","min":null,"max":null,"short name":"solder toe","type":"fixedmeasurement"},"solder heel":{"nom":0,"long name":"Solder fillet (heel)","min":null,"max":null,"short name":"solder heel","type":"fixedmeasurement"},"solder side":{"nom":50000,"long name":"Solder fillet (side)","min":null,"max":null,"short name":"solder side","type":"fixedmeasurement"},"courtyard":{"nom":500000,"long name":"Courtyard","min":null,"max":null,"short name":"courtyard","type":"fixedmeasurement"},"SF":{"default":"A (&gt;= 1608 metric)","long name":"Packing level","type":"multichoiceparent","short name":"SF","help":"http://support.upverter.com/customer/portal/articles/978783-what-is-a-footprint-packing-level","children":["solder toe","solder heel","solder side","courtyard"]}}}'/>
+                                    <attribute name="mfg_package_ident_date" value="0"/>
+                                    <attribute name="footprint_parameters_3" value='{"fp_type":"chip_cap","params":{"L":{"nom":1600000,"long name":"Length","min":1400000,"max":1800000,"short name":"L","type":"measurement"},"W":{"nom":800000,"long name":"Width","min":600000,"max":1000000,"short name":"W","type":"measurement"},"t":{"nom":700000,"long name":"Height","min":600000,"max":800000,"short name":"t","type":"measurement"},"b":{"nom":350000,"long name":"Terminal width","min":200000,"max":500000,"short name":"b","type":"measurement"},"P":{"default":"false","long name":"Polarized","type":"multichoice","short name":"P"},"offset x":{"nom":0,"long name":"X Center offset","min":null,"max":null,"short name":"offset x","type":"measurement"},"offset y":{"nom":0,"long name":"Y Center offset","min":null,"max":null,"short name":"offset y","type":"measurement"},"POL":{"default":"No","long name":"Pin 1 polarity marker","type":"multichoice","short name":"POL"},"LS":{"long name":"Land shape","type":"fixed","short name":"LS","value":"Rectangle"},"solder toe":{"nom":150000,"long name":"Solder fillet (toe)","min":null,"max":null,"short name":"solder toe","type":"fixedmeasurement"},"solder heel":{"nom":0,"long name":"Solder fillet (heel)","min":null,"max":null,"short name":"solder heel","type":"fixedmeasurement"},"solder side":{"nom":-50000,"long name":"Solder fillet (side)","min":null,"max":null,"short name":"solder side","type":"fixedmeasurement"},"courtyard":{"nom":100000,"long name":"Courtyard","min":null,"max":null,"short name":"courtyard","type":"fixedmeasurement"},"SF":{"default":"C (&gt;= 1608 metric)","long name":"Packing level","type":"multichoiceparent","short name":"SF","help":"http://support.upverter.com/customer/portal/articles/978783-what-is-a-footprint-packing-level","children":["solder toe","solder heel","solder side","courtyard"]}}}'/>
+                                    <attribute name="footprint_parameters_2" value='{"fp_type":"chip_cap","params":{"L":{"nom":1600000,"long name":"Length","min":1400000,"max":1800000,"short name":"L","type":"measurement"},"W":{"nom":800000,"long name":"Width","min":600000,"max":1000000,"short name":"W","type":"measurement"},"t":{"nom":700000,"long name":"Height","min":600000,"max":800000,"short name":"t","type":"measurement"},"b":{"nom":350000,"long name":"Terminal width","min":200000,"max":500000,"short name":"b","type":"measurement"},"P":{"default":"false","long name":"Polarized","type":"multichoice","short name":"P"},"offset x":{"nom":0,"long name":"X Center offset","min":null,"max":null,"short name":"offset x","type":"measurement"},"offset y":{"nom":0,"long name":"Y Center offset","min":null,"max":null,"short name":"offset y","type":"measurement"},"POL":{"default":"No","long name":"Pin 1 polarity marker","type":"multichoice","short name":"POL"},"LS":{"long name":"Land shape","type":"fixed","short name":"LS","value":"Rectangle"},"solder toe":{"nom":350000,"long name":"Solder fillet (toe)","min":null,"max":null,"short name":"solder toe","type":"fixedmeasurement"},"solder heel":{"nom":0,"long name":"Solder fillet (heel)","min":null,"max":null,"short name":"solder heel","type":"fixedmeasurement"},"solder side":{"nom":0,"long name":"Solder fillet (side)","min":null,"max":null,"short name":"solder side","type":"fixedmeasurement"},"courtyard":{"nom":250000,"long name":"Courtyard","min":null,"max":null,"short name":"courtyard","type":"fixedmeasurement"},"SF":{"default":"B (&gt;= 1608 metric)","long name":"Packing level","type":"multichoiceparent","short name":"SF","help":"http://support.upverter.com/customer/portal/articles/978783-what-is-a-footprint-packing-level","children":["solder toe","solder heel","solder side","courtyard"]}}}'/>
+                                    <attribute name="temperature_range_high" value="+85°C"/>
+                                    <attribute name="MPN" value="GRM187R61A226ME15D"/>
+                                    <attribute name="digikey_description" value=""/>
+                                    <attribute name="device_class_L3" value="Ceramic Capacitors"/>
+                                    <attribute name="device_class_L1" value="Passive Components"/>
+                                    <attribute name="digikey_part_number" value=""/>
+                                    <attribute name="tolerance" value="20%"/>
+                                    <attribute name="prefix" value="C"/>
+                                    <attribute name="verification_version" value="0.0.0.3"/>
+                                    <attribute name="datasheet" value="https://www.murata.com/en-us/products/productdetail?partno=GRM187R61A226ME15%23"/>
+                                    <attribute name="voltage_rating" value="10V"/>
+                                    <attribute name="lead_free" value="Yes"/>
+                                    <attribute name="height" value="0.8mm"/>
+                                    <attribute name="temperature_characteristic" value="X5R"/>
+                                    <attribute name="automotive" value="No"/>
+                                    <attribute name="mfg_package_ident" value="GRM187-0.2"/>
+                                    <attribute name="footprint_variant_name_0" value="Recommended_Land_Pattern"/>
+                                    <attribute name="footprint_variant_name_1" value="IPC_A"/>
+                                    <attribute name="footprint_variant_name_2" value="IPC_B"/>
+                                    <attribute name="footprint_variant_name_3" value="IPC_C"/>
+                                    <attribute name="package" value="0603"/>
+                                    <attribute name="temperature_range_low" value="-55°C"/>
+                                    <attribute name="capacitance" value="22uF"/>
+                                    <attribute name="rohs" value="Yes"/>
+                                    <attribute name="centroid_not_specified" value="No"/>
+                                    <attribute name="material" value="Ceramic"/>
+                                    <attribute name="ipc_land_pattern_name" value="CAPC16080X70"/>
+                                    <attribute name="MF" value="Murata"/>
+                                    <attribute name="device_class_L2" value="Capacitors"/>
+                                    <attribute name="mfg_package_ident_component_id" value="f7724725aa28cefe"/>
+                                </technology>
+                            </technologies>
+                        </device>
+                        <device name="MURATA_GRM187R61A226ME15D_0_3" package="MURATA_GRM187R61A226ME15D_3">
+                            <connects>
+                                <connect gate="G$0" pad="1" pin="1"/>
+                                <connect gate="G$0" pad="2" pin="2"/>
+                            </connects>
+                            <technologies>
+                                <technology>
+                                    <attribute name="mouser_part_number" value=""/>
+                                    <attribute name="temperature_coefficient" value="15%"/>
+                                    <attribute name="mfg_package_ident_rev" value="0"/>
+                                    <attribute name="footprint_parameters_1" value='{"fp_type":"chip_cap","params":{"L":{"nom":1600000,"long name":"Length","min":1400000,"max":1800000,"short name":"L","type":"measurement"},"W":{"nom":800000,"long name":"Width","min":600000,"max":1000000,"short name":"W","type":"measurement"},"t":{"nom":700000,"long name":"Height","min":600000,"max":800000,"short name":"t","type":"measurement"},"b":{"nom":350000,"long name":"Terminal width","min":200000,"max":500000,"short name":"b","type":"measurement"},"P":{"default":"false","long name":"Polarized","type":"multichoice","short name":"P"},"offset x":{"nom":0,"long name":"X Center offset","min":null,"max":null,"short name":"offset x","type":"measurement"},"offset y":{"nom":0,"long name":"Y Center offset","min":null,"max":null,"short name":"offset y","type":"measurement"},"POL":{"default":"No","long name":"Pin 1 polarity marker","type":"multichoice","short name":"POL"},"LS":{"long name":"Land shape","type":"fixed","short name":"LS","value":"Rectangle"},"solder toe":{"nom":550000,"long name":"Solder fillet (toe)","min":null,"max":null,"short name":"solder toe","type":"fixedmeasurement"},"solder heel":{"nom":0,"long name":"Solder fillet (heel)","min":null,"max":null,"short name":"solder heel","type":"fixedmeasurement"},"solder side":{"nom":50000,"long name":"Solder fillet (side)","min":null,"max":null,"short name":"solder side","type":"fixedmeasurement"},"courtyard":{"nom":500000,"long name":"Courtyard","min":null,"max":null,"short name":"courtyard","type":"fixedmeasurement"},"SF":{"default":"A (&gt;= 1608 metric)","long name":"Packing level","type":"multichoiceparent","short name":"SF","help":"http://support.upverter.com/customer/portal/articles/978783-what-is-a-footprint-packing-level","children":["solder toe","solder heel","solder side","courtyard"]}}}'/>
+                                    <attribute name="mfg_package_ident_date" value="0"/>
+                                    <attribute name="footprint_parameters_3" value='{"fp_type":"chip_cap","params":{"L":{"nom":1600000,"long name":"Length","min":1400000,"max":1800000,"short name":"L","type":"measurement"},"W":{"nom":800000,"long name":"Width","min":600000,"max":1000000,"short name":"W","type":"measurement"},"t":{"nom":700000,"long name":"Height","min":600000,"max":800000,"short name":"t","type":"measurement"},"b":{"nom":350000,"long name":"Terminal width","min":200000,"max":500000,"short name":"b","type":"measurement"},"P":{"default":"false","long name":"Polarized","type":"multichoice","short name":"P"},"offset x":{"nom":0,"long name":"X Center offset","min":null,"max":null,"short name":"offset x","type":"measurement"},"offset y":{"nom":0,"long name":"Y Center offset","min":null,"max":null,"short name":"offset y","type":"measurement"},"POL":{"default":"No","long name":"Pin 1 polarity marker","type":"multichoice","short name":"POL"},"LS":{"long name":"Land shape","type":"fixed","short name":"LS","value":"Rectangle"},"solder toe":{"nom":150000,"long name":"Solder fillet (toe)","min":null,"max":null,"short name":"solder toe","type":"fixedmeasurement"},"solder heel":{"nom":0,"long name":"Solder fillet (heel)","min":null,"max":null,"short name":"solder heel","type":"fixedmeasurement"},"solder side":{"nom":-50000,"long name":"Solder fillet (side)","min":null,"max":null,"short name":"solder side","type":"fixedmeasurement"},"courtyard":{"nom":100000,"long name":"Courtyard","min":null,"max":null,"short name":"courtyard","type":"fixedmeasurement"},"SF":{"default":"C (&gt;= 1608 metric)","long name":"Packing level","type":"multichoiceparent","short name":"SF","help":"http://support.upverter.com/customer/portal/articles/978783-what-is-a-footprint-packing-level","children":["solder toe","solder heel","solder side","courtyard"]}}}'/>
+                                    <attribute name="footprint_parameters_2" value='{"fp_type":"chip_cap","params":{"L":{"nom":1600000,"long name":"Length","min":1400000,"max":1800000,"short name":"L","type":"measurement"},"W":{"nom":800000,"long name":"Width","min":600000,"max":1000000,"short name":"W","type":"measurement"},"t":{"nom":700000,"long name":"Height","min":600000,"max":800000,"short name":"t","type":"measurement"},"b":{"nom":350000,"long name":"Terminal width","min":200000,"max":500000,"short name":"b","type":"measurement"},"P":{"default":"false","long name":"Polarized","type":"multichoice","short name":"P"},"offset x":{"nom":0,"long name":"X Center offset","min":null,"max":null,"short name":"offset x","type":"measurement"},"offset y":{"nom":0,"long name":"Y Center offset","min":null,"max":null,"short name":"offset y","type":"measurement"},"POL":{"default":"No","long name":"Pin 1 polarity marker","type":"multichoice","short name":"POL"},"LS":{"long name":"Land shape","type":"fixed","short name":"LS","value":"Rectangle"},"solder toe":{"nom":350000,"long name":"Solder fillet (toe)","min":null,"max":null,"short name":"solder toe","type":"fixedmeasurement"},"solder heel":{"nom":0,"long name":"Solder fillet (heel)","min":null,"max":null,"short name":"solder heel","type":"fixedmeasurement"},"solder side":{"nom":0,"long name":"Solder fillet (side)","min":null,"max":null,"short name":"solder side","type":"fixedmeasurement"},"courtyard":{"nom":250000,"long name":"Courtyard","min":null,"max":null,"short name":"courtyard","type":"fixedmeasurement"},"SF":{"default":"B (&gt;= 1608 metric)","long name":"Packing level","type":"multichoiceparent","short name":"SF","help":"http://support.upverter.com/customer/portal/articles/978783-what-is-a-footprint-packing-level","children":["solder toe","solder heel","solder side","courtyard"]}}}'/>
+                                    <attribute name="temperature_range_high" value="+85°C"/>
+                                    <attribute name="MPN" value="GRM187R61A226ME15D"/>
+                                    <attribute name="digikey_description" value=""/>
+                                    <attribute name="device_class_L3" value="Ceramic Capacitors"/>
+                                    <attribute name="device_class_L1" value="Passive Components"/>
+                                    <attribute name="digikey_part_number" value=""/>
+                                    <attribute name="tolerance" value="20%"/>
+                                    <attribute name="prefix" value="C"/>
+                                    <attribute name="verification_version" value="0.0.0.3"/>
+                                    <attribute name="datasheet" value="https://www.murata.com/en-us/products/productdetail?partno=GRM187R61A226ME15%23"/>
+                                    <attribute name="voltage_rating" value="10V"/>
+                                    <attribute name="lead_free" value="Yes"/>
+                                    <attribute name="height" value="0.8mm"/>
+                                    <attribute name="temperature_characteristic" value="X5R"/>
+                                    <attribute name="automotive" value="No"/>
+                                    <attribute name="mfg_package_ident" value="GRM187-0.2"/>
+                                    <attribute name="footprint_variant_name_0" value="Recommended_Land_Pattern"/>
+                                    <attribute name="footprint_variant_name_1" value="IPC_A"/>
+                                    <attribute name="footprint_variant_name_2" value="IPC_B"/>
+                                    <attribute name="footprint_variant_name_3" value="IPC_C"/>
+                                    <attribute name="package" value="0603"/>
+                                    <attribute name="temperature_range_low" value="-55°C"/>
+                                    <attribute name="capacitance" value="22uF"/>
+                                    <attribute name="rohs" value="Yes"/>
+                                    <attribute name="centroid_not_specified" value="No"/>
+                                    <attribute name="material" value="Ceramic"/>
+                                    <attribute name="ipc_land_pattern_name" value="CAPC16080X70"/>
+                                    <attribute name="MF" value="Murata"/>
+                                    <attribute name="device_class_L2" value="Capacitors"/>
+                                    <attribute name="mfg_package_ident_component_id" value="f7724725aa28cefe"/>
+                                </technology>
+                            </technologies>
+                        </device>
+                    </devices>
+                </deviceset>
+            </devicesets>
+        </library>
+    </drawing>
+</eagle>
